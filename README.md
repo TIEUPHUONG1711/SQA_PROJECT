@@ -25,5 +25,8 @@ using Python, following SQA best practices.
 
 ## 5. How to Run
 ```bash
+cd D:\SQA_PROJECT
+D:\SQA_PROJECT> python -m venv venv
+D:\SQA_PROJECT> venv\Scripts\activate
 D:\> python -m SQA_PROJECT.tests.test_api
 D:\> python -m SQA_PROJECT.tests.test_data_quality
