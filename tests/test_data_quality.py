@@ -7,7 +7,7 @@ from SQA_PROJECT.utils.validator import (
 )
 
 logger = get_logger()
-DATA_PATH = "D:\\SQA_PROJECT\\data\\users.csv"
+DATA_PATH = r"D:\SQA_PROJECT\SQA_PROJECT\data\users.csv"
 
 def test_data_quality():
     logger.info("START TEST: DATA QUALITY")
