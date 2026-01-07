@@ -1,0 +1,37 @@
+BƯỚC 2 — VIẾT TEST PLAN
+- Objective: The objective of this test plan is to verify the functionality, performance, and data quality of the User API.
+This includes validating API responses, mandatory fields, data types, and ensuring data integrity after extracting data into CSV or database.
+
+- SCOPE (PHẠM VI TEST):
++ API Functional Testing for GET /users
++ Response status code validation
++ Response time validation
++ Mandatory field validation (id, name, email)
++ Data type validation
++ Data quality validation (NULL, duplicate, format)
++ Data consistency(tính nhất quán) between API and CSV/database
+
+- TEST TYPES (LOẠI TEST):
++ Test Types
++ Functional Testing
++ Data Validation Testing
++ Basic Performance Testing (response time)
+
+- TOOLS & TECHNOLOGIES:
++ Python (for test scripts)
++ Requests library (API testing)
++ Pandas (data validation)
++ CSV / SQLite / MySQL (data storage)
++ GitHub (version control)
+
+- ENTRY CRITERIA (ĐIỀU KIỆN BẮT ĐẦU TEST): 
++ API endpoint is accessible
++ Test environment is ready
++ Test data is available
++ Test plan and test cases are approved
+
+- EXIT CRITERIA (ĐIỀU KIỆN KẾT THÚC TEST):
++ All planned test cases are executed
++ No critical or high severity defects remain open
++ Test results are documented
++ Test execution summary is completed

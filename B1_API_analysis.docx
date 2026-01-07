@@ -1,0 +1,17 @@
+BƯỚC 1 — XÁC ĐỊNH HỆ THỐNG CẦN TEST
+- Chọn API
+Dùng API public (không cần backend)
+https://jsonplaceholder.typicode.com/users
+
+- Hiểu dữ liệu trả về:
+API: GET /users
+Response type: array of users objects 
+Total records: 10 users
+Mandatory field:
++ id: int
++ name: string
++ email: string
+Initial observation:
++ id values are unique
++ email contain '@'
++ no null values observed
