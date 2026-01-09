@@ -18,3 +18,5 @@ def check_email_format(df, column):
         if not re.match(pattern, email):
             return False, f"Invalid email format: {email}"
     return True, "Email format valid"
+
+# đoạn code trên để kiểm tra dữ liệu NULL, trùng lặp và định dạng email trong DataFrame pandas

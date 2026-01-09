@@ -15,3 +15,4 @@ def get_users(url):
 def save_users_to_csv(data, path):
     df = pd.DataFrame(data)
     df.to_csv(path, index=False)
+#đoạn code trên để gọi API lấy dữ liệu người dùng, thời gian trả lời của api và lưu vào file CSV    
